@@ -2,22 +2,6 @@
 
 A Telegram-based chatbot that conducts depression screening assessments using the **PHQ-9 (Patient Health Questionnaire-9)** and provides personalized mental health insights and resources.
 
----
-
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [How It Works](#how-it-works)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [Disclaimer](#disclaimer)
-- [License](#license)
 
 ---
 
