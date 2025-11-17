@@ -46,8 +46,8 @@ This project is a mental health chatbot designed to help users assess their ment
 
 ### Step 1: Clone the Repository
 
-git clone https://github.com/smritisingh-0401/ChatBot-for-Mental-Health-Assess.git
-cd ChatBot-for-Mental-Health-Assess
+-git clone https://github.com/smritisingh-0401/ChatBot-for-Mental-Health-Assess.git
+-cd ChatBot-for-Mental-Health-Assess
 
 
 ### Step 2: Create Virtual Environment
@@ -102,22 +102,6 @@ INFO:telegram.ext._application:Application started
 3. Send `/start` to begin
 4. Follow the prompts to take the assessment
 
----
-
-## 📁 Project Structure
-
-ChatBot-for-Mental-Health-Assess/
-├── data/
-│ └── users.db # SQLite database (auto-generated)
-├── database.py # Database setup and CRUD operations
-├── depression_detector.py # PHQ-9 scoring and classification logic
-├── main.py # Main bot handler and conversation flow
-├── requirements.txt # Python dependencies
-├── .env # Environment variables (not committed)
-├── .gitignore # Git ignore rules
-└── README.md # Project documentation
-
-text
 
 ---
 
@@ -184,7 +168,8 @@ Contributions are welcome! To contribute:
 - If you are experiencing a mental health crisis, please contact emergency services or a crisis hotline immediately
 
 **Crisis Resources:**
-- **US**: 988 Suicide & Crisis Lifeline (call or text 988)
+- **IND**: Call for more help tel:78930-78930
+- **Website**: https://1life.org.in/
 - **International**: https://www.iasp.info/resources/Crisis_Centres/
 
 ---
@@ -201,6 +186,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - GitHub: [@smritisingh-0401](https://github.com/smritisingh-0401)
 - Project Link: [ChatBot-for-Mental-Health-Assess](https://github.com/smritisingh-0401/ChatBot-for-Mental-Health-Assess)
+- Chatbot: [Telegram-ChatBot](https://t.me/mental_health_asses_bot)
 
 ---
 
