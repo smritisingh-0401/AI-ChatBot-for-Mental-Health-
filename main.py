@@ -16,7 +16,7 @@ if sys.platform.startswith('win'):
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 load_dotenv()
-TOKEN = "8569608114:AAEjiWyzgJJhznxtO8m0o8c3AKNo0XHZNRI"
+TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -379,18 +379,6 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         logger.error(f"Error in button callback: {e}")
         await query.answer("An error occurred. Please try again.")
 
-
-# ============================================
-# Main Application Setup
-# ============================================
-
-# async def main():
-#     """Start the bot"""
-#     logger.info("Initializing MindCare Bot application...")
-    
-
-    
-    
 
 
 # ============================================
